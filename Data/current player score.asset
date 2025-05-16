@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef790104dd277a04793e38a0c06f9a5c, type: 3}
+  m_Name: current player score
+  m_EditorClassIdentifier: 
+  elapsedTime: 20.67185
+  collectedBattaries: 0
+  deathPosition: {x: 15.4995165, y: 10.039442}
+  messageEmmiters:
+  - position: {x: 3, y: 4}
+    message: "\u0430\u043B\u043B\u043E"
+  - position: {x: 5, y: 5}
+    message: "\u0445\u043E\u0447\u0443 \u043F\u0438\u0442\u0441\u044B"
+  storages:
+  - position: {x: 1, y: 1}
+    batteries_amount: 5
+  - position: {x: 3, y: 3}
+    batteries_amount: 7
